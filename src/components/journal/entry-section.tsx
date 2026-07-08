@@ -28,7 +28,7 @@ export function EntrySection({ entry, index }: { entry: Entry; index: number }) 
         </div>
       )}
 
-      <div className="w-full max-w-[30ch] px-6">
+      <div className="w-full max-w-[800px] px-6">
         <div className="flex items-baseline justify-between gap-3">
           <time dateTime={entry.date} title={formatLongDate(entry.date)}>
             <DateStamp date={entry.date} color={duotone.ink} className="text-lg" />
