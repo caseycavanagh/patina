@@ -8,16 +8,16 @@ export type Duotone = {
 // bg (WCAG AA 4.5:1 or better, verified at authoring time), so any pairing
 // is safe to render body text with directly.
 export const DUOTONES: Duotone[] = [
-  { name: "lagoon", bg: "#0B3B36", ink: "#4DF7D0" },
-  { name: "pine", bg: "#0B3D2E", ink: "#EFEEDF" },
-  { name: "sky", bg: "#0E2A4A", ink: "#7FD4FF" },
-  { name: "blush", bg: "#3B0F1F", ink: "#FF8FA3" },
-  { name: "mustard", bg: "#2E2308", ink: "#FFD166" },
-  { name: "lavender", bg: "#241B3D", ink: "#C9B6FF" },
-  { name: "graphite", bg: "#1A1A1A", ink: "#F5E9C9" },
-  { name: "coral", bg: "#2A1210", ink: "#FF7A59" },
-  { name: "sage", bg: "#1C2A1A", ink: "#C8E6A0" },
-  { name: "periwinkle", bg: "#171A3D", ink: "#A8B4F0" },
+  { name: "lagoon", bg: "#061F1B", ink: "#3FFFC9" },
+  { name: "pine", bg: "#081F17", ink: "#EFEEDF" },
+  { name: "sky", bg: "#050E1E", ink: "#5FE0FF" },
+  { name: "blush", bg: "#1A0509", ink: "#FF6B92" },
+  { name: "mustard", bg: "#140F02", ink: "#FFC94D" },
+  { name: "lavender", bg: "#120C22", ink: "#BB8CFF" },
+  { name: "graphite", bg: "#0D0D0D", ink: "#F5E9C9" },
+  { name: "coral", bg: "#170908", ink: "#FF6A45" },
+  { name: "sage", bg: "#0E160D", ink: "#B9E86B" },
+  { name: "periwinkle", bg: "#0B0D22", ink: "#93A4FF" },
 ];
 
 /** Deterministic hash so a given entry always renders the same duotone. */
