@@ -13,7 +13,7 @@ export function EntrySection({ entry, index }: { entry: Entry; index: number }) 
     <section
       id={entry.id}
       data-entry-id={entry.id}
-      className="journal-entry relative flex min-h-dvh w-full snap-start snap-always flex-col justify-center gap-8 pt-24 pb-32"
+      className="journal-entry relative flex min-h-dvh w-full snap-start snap-always flex-col items-center justify-center gap-8 pt-24 pb-32"
       style={{ color: duotone.ink }}
     >
       {entry.kind !== "text" && (
@@ -28,8 +28,8 @@ export function EntrySection({ entry, index }: { entry: Entry; index: number }) 
         </div>
       )}
 
-      <div className="px-6">
-        <div className="flex items-baseline gap-3">
+      <div className="w-full max-w-[800px] px-6">
+        <div className="flex items-baseline justify-between gap-3">
           <time dateTime={entry.date} title={formatLongDate(entry.date)}>
             <DateStamp date={entry.date} color={duotone.ink} className="text-lg" />
           </time>
@@ -39,7 +39,7 @@ export function EntrySection({ entry, index }: { entry: Entry; index: number }) 
             </span>
           )}
         </div>
-        <p className="mt-3 max-w-[30ch] text-2xl leading-snug font-normal sm:text-3xl">
+        <p className="mt-3 text-2xl leading-snug font-normal sm:text-3xl">
           {entry.kind === "text" ? entry.body : entry.caption}
         </p>
       </div>
