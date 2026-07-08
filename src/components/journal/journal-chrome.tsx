@@ -57,11 +57,6 @@ export function JournalChrome({
   const activeEntry = entries[activeIndex];
   const activeDuotone = duotones[activeIndex];
 
-  useEffect(() => {
-    if (!activeDuotone) return;
-    document.documentElement.style.setProperty("--scroll-thumb", activeDuotone.ink);
-  }, [activeDuotone]);
-
   if (!activeEntry) return null;
 
   return (
