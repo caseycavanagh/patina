@@ -45,7 +45,7 @@ export function InkText({
 
   const maskImage = `radial-gradient(circle at ${params.pressureCx}% ${params.pressureCy}%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.95) ${
     params.pressureRadius * 0.8
-  }%, rgba(0,0,0,0.55) ${params.pressureRadius * 1.3}%)`;
+  }%, rgba(0,0,0,0.78) ${params.pressureRadius * 1.3}%)`;
 
   const words = text.split(" ");
   const wordStarts = words.reduce<number[]>((starts, word, i) => {
