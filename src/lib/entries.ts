@@ -1,6 +1,7 @@
 export type EntryBase = {
   id: string;
   date: string; // ISO
+  time?: string; // e.g. "12:17am"
 };
 
 export type TextEntry = EntryBase & {
@@ -29,40 +30,17 @@ export type Entry = TextEntry | PhotoEntry | SongEntry | SketchEntry;
 
 export const entries: Entry[] = [
   {
-    id: "2026-07-08-porch",
-    date: "2026-07-08",
+    id: "2026-07-04-newport",
+    date: "2026-07-04",
+    time: "12:17am",
     kind: "text",
-    body: "sat on the porch until the streetlights came on. didn't write anything down. that was the point.",
+    body: "One special thing about Newport is that it doesn't feel like a concert. It feels like a community. And the bands are a part of it. There's no place on earth like it. There is magic in those walls. And we are just lucky to be there to witness some of it.",
   },
   {
-    id: "2026-07-05-negatives",
-    date: "2026-07-05",
-    kind: "photo",
-    caption: "the light through the kitchen window, 7:14am. still haven't found a better reason to wake up early.",
-  },
-  {
-    id: "2026-07-02-loop",
-    date: "2026-07-02",
-    kind: "song",
-    caption: "four notes, looping. can't tell if it's a chorus or just a habit.",
-    notes: [0, 3, 7, 5],
-  },
-  {
-    id: "2026-06-29-drag",
-    date: "2026-06-29",
-    kind: "sketch",
-    caption: "a little drag toy. built it instead of answering email. no regrets.",
-  },
-  {
-    id: "2026-06-24-weight",
-    date: "2026-06-24",
+    id: "2026-06-11-play",
+    date: "2026-06-11",
+    time: "11:14pm",
     kind: "text",
-    body: "body and mind like two legs — fix both or you're still limping.",
-  },
-  {
-    id: "2026-06-19-tape",
-    date: "2026-06-19",
-    kind: "photo",
-    caption: "found the old cassette deck in a box marked 'misc.' pressed play out of habit.",
+    body: 'Doing this actually just makes me feel like being a kid. Just playing around and not worried about making a fucking outcome or "deliverable" happen with it.',
   },
 ];

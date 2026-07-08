@@ -49,7 +49,7 @@ export function EntrySection({ entry }: { entry: Entry }) {
           {entry.kind === "text" ? entry.body : entry.caption}
         </p>
         <p className="mt-5 font-mono text-xs tracking-widest uppercase opacity-70">
-          {KIND_LABEL[entry.kind]}
+          {entry.time ? `${entry.time} · ${KIND_LABEL[entry.kind]}` : KIND_LABEL[entry.kind]}
         </p>
       </div>
     </section>
