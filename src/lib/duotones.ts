@@ -5,18 +5,19 @@ export type Duotone = {
 };
 
 // Curated bg/ink pairs. Each ink color is chosen for contrast against its
-// bg, so any pairing is safe to render body text with directly.
+// bg (WCAG AA 4.5:1 or better, verified at authoring time), so any pairing
+// is safe to render body text with directly.
 export const DUOTONES: Duotone[] = [
-  { name: "lagoon", bg: "#7FE8D6", ink: "#B3261E" },
+  { name: "lagoon", bg: "#0B3B36", ink: "#4DF7D0" },
   { name: "pine", bg: "#0B3D2E", ink: "#EFEEDF" },
-  { name: "sky", bg: "#8EC7F5", ink: "#0B3D2E" },
-  { name: "blush", bg: "#F6C9CE", ink: "#6B1E3C" },
-  { name: "mustard", bg: "#F2C14E", ink: "#3A2B1D" },
-  { name: "lavender", bg: "#D8CBFA", ink: "#2E1A47" },
-  { name: "graphite", bg: "#232323", ink: "#F5E9C9" },
-  { name: "coral", bg: "#FF8A65", ink: "#241B2F" },
-  { name: "sage", bg: "#C4D6B0", ink: "#2F3B2A" },
-  { name: "periwinkle", bg: "#A8B4F0", ink: "#14143C" },
+  { name: "sky", bg: "#0E2A4A", ink: "#7FD4FF" },
+  { name: "blush", bg: "#3B0F1F", ink: "#FF8FA3" },
+  { name: "mustard", bg: "#2E2308", ink: "#FFD166" },
+  { name: "lavender", bg: "#241B3D", ink: "#C9B6FF" },
+  { name: "graphite", bg: "#1A1A1A", ink: "#F5E9C9" },
+  { name: "coral", bg: "#2A1210", ink: "#FF7A59" },
+  { name: "sage", bg: "#1C2A1A", ink: "#C8E6A0" },
+  { name: "periwinkle", bg: "#171A3D", ink: "#A8B4F0" },
 ];
 
 /** Deterministic hash so a given entry always renders the same duotone. */
