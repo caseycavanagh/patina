@@ -26,13 +26,7 @@ export function EntrySection({ entry }: { entry: Entry }) {
       style={{ background: duotone.bg, color: duotone.ink }}
     >
       <header className="flex items-center justify-between px-6 pt-[max(1.5rem,env(safe-area-inset-top))]">
-        <InkText
-          text="patina."
-          seed="patina."
-          color={duotone.ink}
-          wrap={false}
-          className="text-base font-medium tracking-tight"
-        />
+        <span className="text-base font-medium tracking-tight">patina.</span>
         <Avatar className="size-3.5" style={{ background: duotone.ink }} aria-hidden />
       </header>
 
@@ -48,11 +42,7 @@ export function EntrySection({ entry }: { entry: Entry }) {
 
       <div className="px-6 pb-32">
         <p className="max-w-[30ch] text-2xl leading-snug font-normal sm:text-3xl">
-          <InkText
-            text={entry.kind === "text" ? entry.body : entry.caption}
-            seed={entry.id}
-            color={duotone.ink}
-          />
+          {entry.kind === "text" ? entry.body : entry.caption}
         </p>
         <div className="mt-5 flex items-center gap-3">
           <time dateTime={entry.date} title={formatLongDate(entry.date)}>
