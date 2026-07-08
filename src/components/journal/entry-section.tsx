@@ -5,6 +5,7 @@ import { PhotoFrame } from "@/components/journal/photo-frame";
 import { SongSketch } from "@/components/journal/song-sketch";
 import { MicroSketch } from "@/components/journal/micro-sketch";
 import { DateStamp } from "@/components/journal/date-stamp";
+import { InkText } from "@/components/journal/ink-text";
 import { Avatar } from "@/components/ui/avatar";
 
 const KIND_LABEL: Record<Entry["kind"], string> = {
@@ -25,7 +26,13 @@ export function EntrySection({ entry }: { entry: Entry }) {
       style={{ background: duotone.bg, color: duotone.ink }}
     >
       <header className="flex items-center justify-between px-6 pt-[max(1.5rem,env(safe-area-inset-top))]">
-        <span className="text-base font-medium tracking-tight">patina.</span>
+        <InkText
+          text="patina."
+          seed="patina."
+          color={duotone.ink}
+          wrap={false}
+          className="text-base font-medium tracking-tight"
+        />
         <Avatar className="size-3.5" style={{ background: duotone.ink }} aria-hidden />
       </header>
 
@@ -41,15 +48,23 @@ export function EntrySection({ entry }: { entry: Entry }) {
 
       <div className="px-6 pb-32">
         <p className="max-w-[30ch] text-2xl leading-snug font-normal sm:text-3xl">
-          {entry.kind === "text" ? entry.body : entry.caption}
+          <InkText
+            text={entry.kind === "text" ? entry.body : entry.caption}
+            seed={entry.id}
+            color={duotone.ink}
+          />
         </p>
         <div className="mt-5 flex items-center gap-3">
           <time dateTime={entry.date} title={formatLongDate(entry.date)}>
             <DateStamp date={entry.date} color={duotone.ink} className="text-lg" />
           </time>
-          <span className="font-mono text-xs tracking-widest uppercase opacity-70">
-            {KIND_LABEL[entry.kind]}
-          </span>
+          <InkText
+            text={KIND_LABEL[entry.kind]}
+            seed={`${entry.id}-kind`}
+            color={duotone.ink}
+            wrap={false}
+            className="font-mono text-xs tracking-widest uppercase opacity-70"
+          />
         </div>
       </div>
     </section>

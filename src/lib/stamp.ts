@@ -71,12 +71,12 @@ export type StampParams = {
 };
 
 /**
- * Same (date, nonce) always yields the same params. `nonce` exists so a
- * "restamp" interaction can re-roll the impression without changing which
- * date is displayed.
+ * Same (seed, nonce) always yields the same params. `nonce` exists so a
+ * "restamp" interaction can re-roll the impression without changing the
+ * text itself.
  */
-export function stampParamsFor(date: string, text: string, nonce = 0): StampParams {
-  const seed = djb2(`${date}:${nonce}`);
+export function stampParamsFor(seedKey: string, text: string, nonce = 0): StampParams {
+  const seed = djb2(`${seedKey}:${nonce}`);
   const rng = mulberry32(seed);
 
   const rotation = range(rng, -5, 5);
@@ -101,7 +101,7 @@ export function stampParamsFor(date: string, text: string, nonce = 0): StampPara
   const pressureCy = range(rng, 30, 70);
   const pressureRadius = range(rng, 78, 100);
 
-  const speckCount = int(rng, 4, 10);
+  const speckCount = int(rng, 4, 10) + Math.floor(text.length / 30);
   const specks: Speck[] = Array.from({ length: speckCount }, () => ({
     x: range(rng, -10, 110),
     y: range(rng, -30, 130),
