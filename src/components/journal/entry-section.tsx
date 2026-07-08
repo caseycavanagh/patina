@@ -13,21 +13,23 @@ export function EntrySection({ entry, index }: { entry: Entry; index: number }) 
     <section
       id={entry.id}
       data-entry-id={entry.id}
-      className="journal-entry relative flex min-h-dvh w-full snap-start snap-always flex-col pt-24"
+      className="journal-entry relative flex min-h-dvh w-full snap-start snap-always flex-col justify-center gap-8 pt-24 pb-32"
       style={{ color: duotone.ink }}
     >
-      <div className="flex flex-1 items-center justify-center px-6 py-10">
-        {entry.kind === "photo" && (
-          <PhotoFrame duotone={duotone} seed={entry.id} />
-        )}
-        {entry.kind === "song" && (
-          <SongSketch notes={entry.notes} duotone={duotone} />
-        )}
-        {entry.kind === "sketch" && <MicroSketch duotone={duotone} />}
-      </div>
+      {entry.kind !== "text" && (
+        <div className="flex items-center justify-center px-6">
+          {entry.kind === "photo" && (
+            <PhotoFrame duotone={duotone} seed={entry.id} />
+          )}
+          {entry.kind === "song" && (
+            <SongSketch notes={entry.notes} duotone={duotone} />
+          )}
+          {entry.kind === "sketch" && <MicroSketch duotone={duotone} />}
+        </div>
+      )}
 
-      <div className="px-6 pb-32">
-        <div className="flex items-center gap-3">
+      <div className="px-6">
+        <div className="flex items-baseline gap-3">
           <time dateTime={entry.date} title={formatLongDate(entry.date)}>
             <DateStamp date={entry.date} color={duotone.ink} className="text-lg" />
           </time>
