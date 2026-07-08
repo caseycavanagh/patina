@@ -97,3 +97,40 @@
     transform: translateY(0);
   }
 }
+
+:root {
+  --scroll-thumb: #ff7a52;
+}
+
+@layer base {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in oklab, var(--scroll-thumb) 55%, transparent) transparent;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: color-mix(in oklab, var(--scroll-thumb) 55%, transparent);
+    border-radius: var(--radius-lg);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    transition: background-color 0.4s ease;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: color-mix(in oklab, var(--scroll-thumb) 80%, transparent);
+    background-clip: padding-box;
+  }
+
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+}
