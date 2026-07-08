@@ -1,11 +1,8 @@
 import { Entry } from "@/lib/entries";
 import { duotoneFor } from "@/lib/duotones";
-import { formatLongDate } from "@/lib/utils";
 import { PhotoFrame } from "@/components/journal/photo-frame";
 import { SongSketch } from "@/components/journal/song-sketch";
 import { MicroSketch } from "@/components/journal/micro-sketch";
-import { DateStamp } from "@/components/journal/date-stamp";
-import { Avatar } from "@/components/ui/avatar";
 
 const KIND_LABEL: Record<Entry["kind"], string> = {
   text: "entry",
@@ -21,19 +18,9 @@ export function EntrySection({ entry }: { entry: Entry }) {
     <section
       id={entry.id}
       data-entry-id={entry.id}
-      className="journal-entry relative flex min-h-dvh w-full snap-start flex-col"
-      style={{ background: duotone.bg, color: duotone.ink }}
+      className="journal-entry relative flex min-h-dvh w-full flex-col pt-24"
+      style={{ color: duotone.ink }}
     >
-      <header className="flex items-center justify-between px-6 pt-[max(1.5rem,env(safe-area-inset-top))]">
-        <span className="text-base font-medium tracking-tight">patina.</span>
-        <div className="flex items-center gap-3">
-          <time dateTime={entry.date} title={formatLongDate(entry.date)}>
-            <DateStamp date={entry.date} color={duotone.ink} className="text-lg" />
-          </time>
-          <Avatar className="size-3.5" style={{ background: duotone.ink }} aria-hidden />
-        </div>
-      </header>
-
       <div className="flex flex-1 items-center justify-center px-6 py-10">
         {entry.kind === "photo" && (
           <PhotoFrame duotone={duotone} seed={entry.id} />

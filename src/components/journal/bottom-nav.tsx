@@ -1,38 +1,18 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { ArrowUp } from "lucide-react";
 import { Entry } from "@/lib/entries";
 import { formatShortDate } from "@/lib/utils";
 
 export function BottomNav({
   entries,
-  scrollContainerId,
+  activeId,
 }: {
   entries: Entry[];
-  scrollContainerId: string;
+  activeId: string;
 }) {
-  const [activeId, setActiveId] = useState(entries[0]?.id ?? "");
   const navRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const root = document.getElementById(scrollContainerId);
-    if (!root) return;
-
-    const observer = new IntersectionObserver(
-      (visibleEntries) => {
-        const mostVisible = visibleEntries
-          .filter((e) => e.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
-        const id = mostVisible?.target.getAttribute("data-entry-id");
-        if (id) setActiveId(id);
-      },
-      { root, threshold: [0.5, 0.75] }
-    );
-
-    root.querySelectorAll("[data-entry-id]").forEach((el) => observer.observe(el));
-    return () => observer.disconnect();
-  }, [scrollContainerId]);
 
   useEffect(() => {
     navRef.current
@@ -56,7 +36,7 @@ export function BottomNav({
               key={entry.id}
               data-nav-id={entry.id}
               onClick={() => scrollTo(entry.id)}
-              className="shrink-0 font-mono text-xs tracking-widest text-white mix-blend-difference transition-opacity"
+              className="shrink-0 font-mono text-xs tracking-widest text-white mix-blend-difference transition-opacity duration-300"
               style={{ opacity: activeId === entry.id ? 1 : 0.45 }}
             >
               {formatShortDate(entry.date)}
