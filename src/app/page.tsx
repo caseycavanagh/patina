@@ -9,10 +9,10 @@ export default function Home() {
     <>
       <main
         id={SCROLL_CONTAINER_ID}
-        className="relative h-dvh w-full overflow-y-auto overscroll-y-none"
+        className="relative h-dvh w-full snap-y snap-mandatory overflow-y-auto overscroll-y-none"
       >
-        {entries.map((entry) => (
-          <EntrySection key={entry.id} entry={entry} />
+        {entries.map((entry, i) => (
+          <EntrySection key={entry.id} entry={entry} index={i} />
         ))}
       </main>
       <JournalChrome entries={entries} scrollContainerId={SCROLL_CONTAINER_ID} />

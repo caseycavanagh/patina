@@ -2,10 +2,8 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Entry } from "@/lib/entries";
-import { duotoneFor } from "@/lib/duotones";
-import { formatLongDate } from "@/lib/utils";
+import { duotoneForIndex } from "@/lib/duotones";
 import { lerpColor } from "@/lib/color";
-import { DateStamp } from "@/components/journal/date-stamp";
 import { Avatar } from "@/components/ui/avatar";
 import { BottomNav } from "@/components/journal/bottom-nav";
 
@@ -16,7 +14,7 @@ export function JournalChrome({
   entries: Entry[];
   scrollContainerId: string;
 }) {
-  const duotones = entries.map((entry) => duotoneFor(entry.id));
+  const duotones = entries.map((_, i) => duotoneForIndex(i));
   const [bg, setBg] = useState(duotones[0]?.bg ?? "#000");
   const [activeIndex, setActiveIndex] = useState(0);
   const frame = useRef<number | null>(null);
@@ -81,19 +79,12 @@ export function JournalChrome({
         >
           patina.
         </span>
-        <div
+        <Avatar
           key={activeEntry.id}
-          className="flex animate-[chrome-fade-in_0.5s_ease] items-center gap-3"
-        >
-          <time dateTime={activeEntry.date} title={formatLongDate(activeEntry.date)}>
-            <DateStamp date={activeEntry.date} color={activeDuotone.ink} className="text-lg" />
-          </time>
-          <Avatar
-            className="size-3.5 transition-colors duration-500"
-            style={{ background: activeDuotone.ink }}
-            aria-hidden
-          />
-        </div>
+          className="size-3.5 animate-[chrome-fade-in_0.5s_ease] transition-colors duration-500"
+          style={{ background: activeDuotone.ink }}
+          aria-hidden
+        />
       </header>
 
       <BottomNav entries={entries} activeId={activeEntry.id} />

@@ -21,15 +21,19 @@ export const DUOTONES: Duotone[] = [
   { name: "periwinkle", bg: "#100B33", ink: "#FF8A65" }, // blue-violet / coral-salmon
 ];
 
-/** Deterministic hash so a given entry always renders the same duotone. */
-function hash(input: string): number {
-  let h = 0;
-  for (let i = 0; i < input.length; i++) {
-    h = (h * 31 + input.charCodeAt(i)) | 0;
-  }
-  return Math.abs(h);
-}
+// Fixed shuffle of palette indices so consecutive posts land on
+// non-adjacent, visually distinct pairs instead of hashing into
+// collisions or a predictable rainbow order.
+const SHUFFLE_ORDER = [0, 8, 9, 4, 1, 6, 3, 2, 7, 5];
 
-export function duotoneFor(seed: string): Duotone {
-  return DUOTONES[hash(seed) % DUOTONES.length];
+/**
+ * Assigns a duotone by an entry's position in the feed, not by hashing its
+ * id — a position-based assignment guarantees every one of the first
+ * `DUOTONES.length` posts gets a distinct color (a hash of two similar id
+ * strings can collide), while still being deterministic: a given post
+ * always renders the same duotone as long as its position doesn't change.
+ */
+export function duotoneForIndex(index: number): Duotone {
+  const order = SHUFFLE_ORDER[index % SHUFFLE_ORDER.length];
+  return DUOTONES[order];
 }
