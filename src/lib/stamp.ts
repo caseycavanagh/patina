@@ -84,8 +84,8 @@ export function stampParamsFor(seedKey: string, text: string, nonce = 0): StampP
   const translateY = range(rng, -3, 3);
 
   const displaceSeed = int(rng, 0, 9999);
-  const displaceFreq = range(rng, 0.015, 0.03);
-  const roughness = range(rng, 0.35, 0.85);
+  const displaceFreq = range(rng, 0.02, 0.035);
+  const roughness = range(rng, 0.12, 0.32);
 
   const grainSeed = int(rng, 0, 9999);
   const grainFreq = range(rng, 0.08, 0.16);
@@ -110,9 +110,9 @@ export function stampParamsFor(seedKey: string, text: string, nonce = 0): StampP
   }));
 
   const chars: CharJitter[] = Array.from({ length: text.length }, () => ({
-    spacing: range(rng, -0.01, 0.14),
-    rotate: range(rng, -4, 4),
-    y: range(rng, -1.5, 1.5),
+    spacing: range(rng, -0.01, 0.1),
+    rotate: range(rng, -1.5, 1.5),
+    y: range(rng, -0.5, 0.5),
   }));
 
   return {
