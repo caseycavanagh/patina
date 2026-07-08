@@ -85,21 +85,21 @@ export function stampParamsFor(seedKey: string, text: string, nonce = 0): StampP
 
   const displaceSeed = int(rng, 0, 9999);
   const displaceFreq = range(rng, 0.02, 0.035);
-  const roughness = range(rng, 0.12, 0.32);
+  const roughness = range(rng, 0.12, 0.2);
 
   const grainSeed = int(rng, 0, 9999);
-  const grainFreq = range(rng, 0.08, 0.16);
-  const gritRatio = range(rng, 0.89, 0.97);
+  const grainFreq = range(rng, 0.35, 0.55);
+  const gritRatio = range(rng, 0.9, 0.97);
   const table = Array.from({ length: 10 }, () => (rng() < gritRatio ? 1 : 0));
   if (!table.includes(1)) table[Math.floor(table.length / 2)] = 1;
   const grainTable = table.join(" ");
 
-  const blur = range(rng, 0.15, 0.3);
-  const alphaPunch = range(rng, 1.4, 1.9);
+  const blur = range(rng, 0.12, 0.24);
+  const alphaPunch = range(rng, 1.6, 2);
 
-  const pressureCx = range(rng, 38, 62);
-  const pressureCy = range(rng, 30, 70);
-  const pressureRadius = range(rng, 78, 100);
+  const pressureCx = range(rng, 42, 58);
+  const pressureCy = range(rng, 38, 62);
+  const pressureRadius = range(rng, 88, 105);
 
   const speckCount = int(rng, 4, 10) + Math.floor(text.length / 30);
   const specks: Speck[] = Array.from({ length: speckCount }, () => ({
