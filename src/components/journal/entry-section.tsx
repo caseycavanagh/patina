@@ -1,9 +1,10 @@
 import { Entry } from "@/lib/entries";
 import { duotoneFor } from "@/lib/duotones";
-import { formatShortDate, formatLongDate } from "@/lib/utils";
+import { formatLongDate } from "@/lib/utils";
 import { PhotoFrame } from "@/components/journal/photo-frame";
 import { SongSketch } from "@/components/journal/song-sketch";
 import { MicroSketch } from "@/components/journal/micro-sketch";
+import { DateStamp } from "@/components/journal/date-stamp";
 import { Avatar } from "@/components/ui/avatar";
 
 const KIND_LABEL: Record<Entry["kind"], string> = {
@@ -42,13 +43,14 @@ export function EntrySection({ entry }: { entry: Entry }) {
         <p className="max-w-[30ch] text-2xl leading-snug font-normal sm:text-3xl">
           {entry.kind === "text" ? entry.body : entry.caption}
         </p>
-        <p className="mt-4 font-mono text-xs tracking-widest uppercase opacity-70">
+        <div className="mt-5 flex items-center gap-3">
           <time dateTime={entry.date} title={formatLongDate(entry.date)}>
-            {formatShortDate(entry.date)}
+            <DateStamp date={entry.date} color={duotone.ink} className="text-lg" />
           </time>
-          {" · "}
-          {KIND_LABEL[entry.kind]}
-        </p>
+          <span className="font-mono text-xs tracking-widest uppercase opacity-70">
+            {KIND_LABEL[entry.kind]}
+          </span>
+        </div>
       </div>
     </section>
   );
