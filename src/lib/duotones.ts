@@ -4,19 +4,21 @@ export type Duotone = {
   ink: string;
 };
 
-// Curated bg/ink pairs. Each ink color is chosen for contrast against its
-// bg, so any pairing is safe to render body text with directly.
+// Curated bg/ink pairs. Bg and ink are chosen from contrasting hue
+// families (not shades of the same color) for a bold, two-tone look, and
+// each pair is verified at WCAG AA 4.5:1 or better so it's safe to render
+// body text with directly.
 export const DUOTONES: Duotone[] = [
-  { name: "lagoon", bg: "#7FE8D6", ink: "#B3261E" },
-  { name: "pine", bg: "#0B3D2E", ink: "#EFEEDF" },
-  { name: "sky", bg: "#8EC7F5", ink: "#0B3D2E" },
-  { name: "blush", bg: "#F6C9CE", ink: "#6B1E3C" },
-  { name: "mustard", bg: "#F2C14E", ink: "#3A2B1D" },
-  { name: "lavender", bg: "#D8CBFA", ink: "#2E1A47" },
-  { name: "graphite", bg: "#232323", ink: "#F5E9C9" },
-  { name: "coral", bg: "#FF8A65", ink: "#241B2F" },
-  { name: "sage", bg: "#C4D6B0", ink: "#2F3B2A" },
-  { name: "periwinkle", bg: "#A8B4F0", ink: "#14143C" },
+  { name: "lagoon", bg: "#052220", ink: "#FF7A52" }, // teal / coral
+  { name: "pine", bg: "#07220F", ink: "#FF3D94" }, // forest / hot pink
+  { name: "sky", bg: "#0A1330", ink: "#FFC94D" }, // navy / gold
+  { name: "blush", bg: "#2E0620", ink: "#8C7BFF" }, // magenta / indigo
+  { name: "mustard", bg: "#241503", ink: "#3FCFFF" }, // amber-brown / electric blue
+  { name: "lavender", bg: "#170B2E", ink: "#C6FF4D" }, // violet / chartreuse
+  { name: "graphite", bg: "#0D0D0D", ink: "#F5E9C9" }, // near-black / warm cream
+  { name: "coral", bg: "#240705", ink: "#4DFFE0" }, // rust / teal-cyan
+  { name: "sage", bg: "#131905", ink: "#C77DFF" }, // olive / violet
+  { name: "periwinkle", bg: "#100B33", ink: "#FF8A65" }, // blue-violet / coral-salmon
 ];
 
 /** Deterministic hash so a given entry always renders the same duotone. */
