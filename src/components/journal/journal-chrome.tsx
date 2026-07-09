@@ -6,6 +6,7 @@ import { duotoneForIndex } from "@/lib/duotones";
 import { lerpColor } from "@/lib/color";
 import { Avatar } from "@/components/ui/avatar";
 import { BottomNav } from "@/components/journal/bottom-nav";
+import { ScrollIndicator } from "@/components/journal/scroll-indicator";
 
 export function JournalChrome({
   entries,
@@ -18,6 +19,7 @@ export function JournalChrome({
   const [bg, setBg] = useState(duotones[0]?.bg ?? "#000");
   const [activeIndex, setActiveIndex] = useState(0);
   const frame = useRef<number | null>(null);
+  const headerRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     const root = document.getElementById(scrollContainerId);
@@ -58,9 +60,18 @@ export function JournalChrome({
   const activeDuotone = duotones[activeIndex];
 
   useEffect(() => {
-    if (!activeDuotone) return;
-    document.documentElement.style.setProperty("--scroll-thumb", activeDuotone.ink);
-  }, [activeDuotone]);
+    const header = headerRef.current;
+    if (!header) return;
+
+    const observer = new ResizeObserver(() => {
+      document.documentElement.style.setProperty(
+        "--header-height",
+        `${header.getBoundingClientRect().height}px`,
+      );
+    });
+    observer.observe(header);
+    return () => observer.disconnect();
+  }, []);
 
   if (!activeEntry) return null;
 
@@ -73,6 +84,7 @@ export function JournalChrome({
       />
 
       <header
+        ref={headerRef}
         className="fixed inset-x-0 top-0 z-40 flex items-center justify-between px-6 pt-[max(1.5rem,env(safe-area-inset-top))] pb-5"
         style={{
           background: `linear-gradient(to bottom, ${bg} 60%, ${bg}00 100%)`,
@@ -93,6 +105,7 @@ export function JournalChrome({
       </header>
 
       <BottomNav entries={entries} activeId={activeEntry.id} />
+      <ScrollIndicator scrollContainerId={scrollContainerId} />
     </>
   );
 }
