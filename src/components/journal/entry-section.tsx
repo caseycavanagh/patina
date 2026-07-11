@@ -39,7 +39,7 @@ export function EntrySection({ entry, index }: { entry: Entry; index: number }) 
             </span>
           )}
         </div>
-        <p className="mt-3 text-2xl leading-snug font-normal whitespace-pre-line sm:text-3xl">
+        <p className="mt-3 text-2xl leading-relaxed font-normal whitespace-pre-line text-pretty break-words sm:text-3xl">
           {entry.kind === "text" ? entry.body : entry.caption}
         </p>
       </div>
