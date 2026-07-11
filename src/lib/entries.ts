@@ -97,7 +97,7 @@ export const entries: Entry[] = [
     date: "2026-06-30",
     time: "3:41am",
     kind: "text",
-    body: "Everything is softer now\nThe water and the trees\nSomehow\nCome in to focus\n\nBut everything melts away\nEvery hour and every day\nI know this\n\n#lyric",
+    body: "Everything is softer now\nThe water and the trees\nSomehow\nCome in to focus\n\nBut everything melts away\nEvery hour and every day\nI know this\n\nlyric",
   },
   {
     id: "2026-06-30-midnight-groove",
@@ -209,7 +209,7 @@ export const entries: Entry[] = [
     date: "2026-06-16",
     time: "3:23am",
     kind: "text",
-    body: "The winds of your past and future\nCollide in view\nSomething that yearns and pulls\nIt’s alive in you\n\n#lyric",
+    body: "The winds of your past and future\nCollide in view\nSomething that yearns and pulls\nIt’s alive in you\n\nlyric",
   },
   {
     id: "2026-06-12-echoes-of-original",
@@ -559,7 +559,7 @@ export const entries: Entry[] = [
     date: "2026-04-19",
     time: "4:02am",
     kind: "text",
-    body: "It’s not too late to dance about\nTo celebrate\nTo scream and shout\n\n#lyric",
+    body: "It’s not too late to dance about\nTo celebrate\nTo scream and shout\n\nlyric",
   },
   {
     id: "2026-04-19-cheese-cube-poetics",
@@ -587,7 +587,7 @@ export const entries: Entry[] = [
     date: "2026-04-18",
     time: "3:58am",
     kind: "text",
-    body: "I can feel the pain\nWhen I hold you in my hands\nCan I take some from you?\nWill it help me understand?\n\nWhy these things happen?\nA subplot in some great plan\nI don’t think it’s fair\nBut I try to comprehend\n\nJust hold on for me\nAnd I’ll hold on to you\nJust hold on for me\nAnd I’ll hold on to you\n\n#lyric",
+    body: "I can feel the pain\nWhen I hold you in my hands\nCan I take some from you?\nWill it help me understand?\n\nWhy these things happen?\nA subplot in some great plan\nI don’t think it’s fair\nBut I try to comprehend\n\nJust hold on for me\nAnd I’ll hold on to you\nJust hold on for me\nAnd I’ll hold on to you\n\nlyric",
   },
   {
     id: "2026-04-15-nova",
@@ -615,7 +615,7 @@ export const entries: Entry[] = [
     date: "2026-04-14",
     time: "1:35pm",
     kind: "text",
-    body: "Everything in nature is coming alive and so am I\n\n#lyric",
+    body: "Everything in nature is coming alive and so am I\n\nlyric",
   },
   {
     id: "2026-04-14-balanced-lens",
@@ -2295,7 +2295,7 @@ export const entries: Entry[] = [
     date: "2026-04-12",
     time: "4:21am",
     kind: "text",
-    body: "I’m taking in this moment\nIt’s sacred to me\nI am present alive\nAnd I am free\n#lyric",
+    body: "I’m taking in this moment\nIt’s sacred to me\nI am present alive\nAnd I am free\nlyric",
   },
   {
     id: "2026-04-12-page-rhythm",
@@ -2309,7 +2309,7 @@ export const entries: Entry[] = [
     date: "2026-04-12",
     time: "2:28am",
     kind: "text",
-    body: "Maybe im too gone to care\nBut im talking to things that aren’t even there\nCan you hear me?\nCan you hear me?\n\n#lyric",
+    body: "Maybe im too gone to care\nBut im talking to things that aren’t even there\nCan you hear me?\nCan you hear me?\n\nlyric",
   },
   {
     id: "2026-04-10-harbor-connection",
@@ -2330,7 +2330,7 @@ export const entries: Entry[] = [
     date: "2026-04-10",
     time: "4:50am",
     kind: "text",
-    body: "Turn your mind inside out and make it into a wave. Crash back to your head again and you feel okay. I feel it coming I smell in the rain. Storm is coming driving me insane.\n\n#lyric",
+    body: "Turn your mind inside out and make it into a wave. Crash back to your head again and you feel okay. I feel it coming I smell in the rain. Storm is coming driving me insane.\n\nlyric",
   },
   {
     id: "2026-04-10-cold-salvation",
@@ -2407,7 +2407,7 @@ export const entries: Entry[] = [
     date: "2026-04-02",
     time: "2:05am",
     kind: "text",
-    body: "There is lightning in the distance\nThunder in its wake\n\n#lyric",
+    body: "There is lightning in the distance\nThunder in its wake\n\nlyric",
   },
   {
     id: "2026-04-01-quirky-dreamer",
@@ -2477,7 +2477,7 @@ export const entries: Entry[] = [
     date: "2026-03-27",
     time: "2:10am",
     kind: "text",
-    body: "Touch the sun\nYesterdays done\nI don’t wanna run\nI don’t wanna run\n\n#lyric",
+    body: "Touch the sun\nYesterdays done\nI don’t wanna run\nI don’t wanna run\n\nlyric",
   },
   {
     id: "2026-03-25-savory-crunch-dream",
@@ -2491,7 +2491,7 @@ export const entries: Entry[] = [
     date: "2026-03-24",
     time: "3:22am",
     kind: "text",
-    body: "I’m chasing down summer\nCuz it’s robbing my spring\nLet the flowers bloom a little longer\nLet the birds sing\n\n#lyric",
+    body: "I’m chasing down summer\nCuz it’s robbing my spring\nLet the flowers bloom a little longer\nLet the birds sing\n\nlyric",
   },
   {
     id: "2026-03-24-nostalgic-bite",
@@ -2582,7 +2582,7 @@ export const entries: Entry[] = [
     date: "2026-03-16",
     time: "1:21am",
     kind: "text",
-    body: "I swear I’ll be better in the morning\nIf I can just forget the night\nIf that angel and demon on my shoulder\nDecide to give up the lonesome fight\n\n#lyric",
+    body: "I swear I’ll be better in the morning\nIf I can just forget the night\nIf that angel and demon on my shoulder\nDecide to give up the lonesome fight\n\nlyric",
   },
   {
     id: "2026-03-15-echoing-archives",
@@ -2624,7 +2624,7 @@ export const entries: Entry[] = [
     date: "2026-03-15",
     time: "4:52am",
     kind: "text",
-    body: "Walk outside my house\nLook up at the stars and it just reminds me that we are who we are. We live here and we share this together.\n\nOk this became a #lyric later.\n\nOne of the first real breakthroughs where I feel like I have an actual song idea.\n\nCheck 885 in the garden",
+    body: "Walk outside my house\nLook up at the stars and it just reminds me that we are who we are. We live here and we share this together.\n\nOk this became a lyric later.\n\nOne of the first real breakthroughs where I feel like I have an actual song idea.\n\nCheck 885 in the garden",
   },
   {
     id: "2026-03-12-midnight-fridge-rush",
@@ -2645,7 +2645,7 @@ export const entries: Entry[] = [
     date: "2026-03-12",
     time: "3:39am",
     kind: "text",
-    body: "Something about the night makes me feel safe. Opposite logic for most. But I don’t mind being the outlier\n\nMaybe there is a #lyric in there",
+    body: "Something about the night makes me feel safe. Opposite logic for most. But I don’t mind being the outlier\n\nMaybe there is a lyric in there",
   },
   {
     id: "2026-03-12-fragile-throne",
@@ -2729,7 +2729,7 @@ export const entries: Entry[] = [
     date: "2026-02-26",
     time: "2:09pm",
     kind: "text",
-    body: "I didn’t see you there\nYou were wading\nIn the water\nSinging to the air\nSinging to the birds and the sea\n\nSun hitting your hair\nI came in and sunk deeper\nTrying to go somewhere\nI don’t know why I try anymore\n\n#lyric for interpolation on 808 (see voice memo)",
+    body: "I didn’t see you there\nYou were wading\nIn the water\nSinging to the air\nSinging to the birds and the sea\n\nSun hitting your hair\nI came in and sunk deeper\nTrying to go somewhere\nI don’t know why I try anymore\n\nlyric for interpolation on 808 (see voice memo)",
   },
   {
     id: "2026-02-26-gary-gaga-dream",
@@ -2820,7 +2820,7 @@ export const entries: Entry[] = [
     date: "2026-02-18",
     time: "1:39pm",
     kind: "text",
-    body: "#Portfolio Voiceover Script — Reddit Presentation\n\nCase Study 1 — Spotify Ad Assistant\nOverview\nSo in 2025, Spotify launched AI-powered ad creation—advertisers could write, voice, and produce audio ads on their own. It debuted at Cannes Lions, covered by the Times, TechCrunch, Hollywood Reporter.\nBut two years before any of that, this started as a side-of-desk project with two teammates. No roadmap. No dedicated resources. Just a belief that if we made it easier to create, small advertisers could sound just as good as the big brands.\nThe Problem\nHere’s what we were seeing. Only 22% of users came back to use our creative tools. A third of all support tickets were about audio production—voiceovers, mixing, revisions. And nearly one in four ads were being outsourced to vendors, and a lot of those never even launched.\nBut the moment that really reframed this for me—I tried to make an ad myself. As a designer, inside the company, with access to everything. And I couldn’t make something I felt confident putting out there. That’s when I realized this wasn’t a usability problem. It was a creative confidence problem.\nThe Vision\nSo we aligned on a simple north star: empower every advertiser to sound their best. Not just build tools—build confidence. And tie that back to the business: ad completion, reduced support costs, advertiser ROI.\nDefining Success\nBefore we designed anything, we defined what success looked like in measurable terms. Reduce creative-related support volume. Increase ad completion and publish rates. And improve repeat usage as a proxy for confidence. These metrics kept us grounded and helped us align product, engineering, and leadership around the same goals.\nEarly Experiments\nWe started small. Testable improvements that laddered up to the bigger vision. An image cropper that reduced upload friction. Mad Lib–style script templates that guided non-writers through proven ad structures. A creative guidance framework that took Spotify’s internal creative team’s best practices and turned them into reusable prompts.\nEach one delivered measurable wins and built momentum internally.\nHack Week\nThen came Hack Week—and this was the turning point. I led design and storytelling for what we called Spotify Ad Assistant. A generative AI prototype that could create a full audio ad in minutes.\nI also made a short sizzle reel. Not a feature demo—a story. I framed the whole experience through the lens of a small business owner trying to get their first ad out the door. I wanted leadership to feel the impact, not just understand the tech.\nOut of over 400 submissions, we won Best Overall Hack—selected by Spotify’s executive team, including Daniel Ek. That’s what unlocked formal roadmap support.\nImpact\nPost–Hack Week pilots showed clear signals. Higher ad completion where we removed friction. Fewer creative support tickets. More repeat usage of the tools. The prototype and the principles behind it ultimately shaped Spotify’s global AI ad creation suite that launched in 2025.\nMy Role\nI defined the creative enablement vision and success metrics. Led the end-to-end UX exploration and prototyping. Collaborated across ML, engineering, content, and product. Designed reusable components that scaled across Ads Studio. And maybe most importantly—I crafted the internal narrative that earned executive buy-in.\nReflection\nThis project taught me that design leadership is about creating belief through clarity. You don’t need a mandate. You need small wins, measurable progress, and a clear story about why it matters.\n\nTransition: “Ad Assistant was about giving small advertisers creative confidence. This next project was about giving Spotify the operational confidence to safely monetize at scale.”\n\nCase Study 2 — Podcast Monetization Review Tool\nOverview\nAs Spotify expanded podcast monetization, we needed a way to review thousands of shows for brand and network safety. At the time, that process was entirely manual—a handful of ops associates doing everything by hand. It didn’t scale.\nI came in as the sole designer to transform a bare-bones MVP into a scalable, AI-assisted review platform. One that balanced three things: creator opportunity, advertiser safety, and operational efficiency.\nThe Problem\nThe manual process was creating bottlenecks everywhere. Ops associates were spending hours listening, tagging, and making decisions with limited support. Those decisions were subjective and hard to audit. Creators were waiting weeks just to get approved for monetization. And advertisers didn’t have enough safe inventory to buy against.\nEveryone was constrained by the same broken workflow.\nThe Opportunity\nWe set out to design a system that could cut review time by 50%, improve decision accuracy and reviewer confidence, increase safe ad supply for the Spotify Audience Network, and meet emerging transparency requirements—including the EU’s Digital Services Act.\nThis was 2021–2022, so we were integrating early AI capabilities into a human-centered workflow. It required a lot of care.\nStarting Point\nEngineering had already digitized the manual process into a basic workflow. Functional, but not usable at scale. As the sole designer, I owned the full stack—service design for the end-to-end workflow, UX and UI for the daily tools ops associates lived in, and systems design for reusable components that could extend to future internal tooling.\nSpotify’s consumer design system wasn’t built for B2B workflows, so I extended it to support these internal use cases.\nResearch\nBecause our users were internal, I could embed deeply. I shadowed ops associates during actual reviews. Mapped out their pain points and decision breakdowns. Got specific about what speed, confidence, and clarity actually meant in their day-to-day.\nThree themes kept coming up: decisioning, data visibility, and auditability. Those became my guide rails for everything that followed.\nThe Level of Zoom Framework\nThis is probably the piece I’m most proud of. To mirror how reviewers actually think, I created what I called the Level of Zoom model.\nThink of it as four layers. At the top, the dashboard—where should I focus my attention? Then show level—what is this podcast broadly about? Then episode level—where might issues exist within a specific show? And finally, snippet level—what exactly needs attention, and why?\nThis structure became the backbone of the entire experience. It matched the reviewer’s mental model, so the tool felt intuitive from day one.\nIntegrating AI\nWe brought in a third-party AI system to flag sensitive topics, assign severity levels, and surface transcript snippets tied to potential violations. But the key was the division of labor. AI handled scale and pattern detection. Humans retained judgment and accountability. That’s how you build trust in a system like this—especially when the stakes involve creator livelihoods and brand safety.\nImpact\nThe platform delivered. 50% reduction in review time. 93% broadcast approval rate—meaning human effort was focused where it actually mattered. Over 20,000 ad impressions unlocked. Manual workflows eliminated. Reviewer burnout reduced. Full compliance with EU transparency and audit requirements.\nAnd it became the foundation for Spotify’s Network Integrity strategy, informing sibling tools across Ads Studio and Brand Safety.\nMy Role\nSole product designer owning UX, research, information architecture, UI, and systems. Daily partner to ops, brand safety, ML, and engineering. I created the scalable frameworks and mental models that the team still uses. Contributed to an internal design system branch for B2B tooling. And served as a strategic partner shaping the long-term network integrity vision.\nReflection\nThis work taught me how to design clarity into complex, high-stakes workflows. When you’re balancing safety, monetization, and speed—you need systems thinking, empathy, and tight cross-functional collaboration. You can’t fake any of those.\n\nKey changes I made:\nThe content and structure are identical to your slides. What I changed is the voice—it reads the way you’d actually talk through it. I removed the bullet-point cadence, added natural transitions, and made sure your signature moments land harder: the personal “I couldn’t make an ad” moment, the sizzle reel story, and the Level of Zoom framework. The transition between case studies bridges the two narratives cleanly.\nPractice hitting those beats tonight and you’ll crush it tomorrow. Want me to help with anything else—your intro section, potential Q&A prep, or Reddit-specific angles you might get asked about?​​​​​​​​​​​​​​​​",
+    body: "Portfolio Voiceover Script — Reddit Presentation\n\nCase Study 1 — Spotify Ad Assistant\nOverview\nSo in 2025, Spotify launched AI-powered ad creation—advertisers could write, voice, and produce audio ads on their own. It debuted at Cannes Lions, covered by the Times, TechCrunch, Hollywood Reporter.\nBut two years before any of that, this started as a side-of-desk project with two teammates. No roadmap. No dedicated resources. Just a belief that if we made it easier to create, small advertisers could sound just as good as the big brands.\nThe Problem\nHere’s what we were seeing. Only 22% of users came back to use our creative tools. A third of all support tickets were about audio production—voiceovers, mixing, revisions. And nearly one in four ads were being outsourced to vendors, and a lot of those never even launched.\nBut the moment that really reframed this for me—I tried to make an ad myself. As a designer, inside the company, with access to everything. And I couldn’t make something I felt confident putting out there. That’s when I realized this wasn’t a usability problem. It was a creative confidence problem.\nThe Vision\nSo we aligned on a simple north star: empower every advertiser to sound their best. Not just build tools—build confidence. And tie that back to the business: ad completion, reduced support costs, advertiser ROI.\nDefining Success\nBefore we designed anything, we defined what success looked like in measurable terms. Reduce creative-related support volume. Increase ad completion and publish rates. And improve repeat usage as a proxy for confidence. These metrics kept us grounded and helped us align product, engineering, and leadership around the same goals.\nEarly Experiments\nWe started small. Testable improvements that laddered up to the bigger vision. An image cropper that reduced upload friction. Mad Lib–style script templates that guided non-writers through proven ad structures. A creative guidance framework that took Spotify’s internal creative team’s best practices and turned them into reusable prompts.\nEach one delivered measurable wins and built momentum internally.\nHack Week\nThen came Hack Week—and this was the turning point. I led design and storytelling for what we called Spotify Ad Assistant. A generative AI prototype that could create a full audio ad in minutes.\nI also made a short sizzle reel. Not a feature demo—a story. I framed the whole experience through the lens of a small business owner trying to get their first ad out the door. I wanted leadership to feel the impact, not just understand the tech.\nOut of over 400 submissions, we won Best Overall Hack—selected by Spotify’s executive team, including Daniel Ek. That’s what unlocked formal roadmap support.\nImpact\nPost–Hack Week pilots showed clear signals. Higher ad completion where we removed friction. Fewer creative support tickets. More repeat usage of the tools. The prototype and the principles behind it ultimately shaped Spotify’s global AI ad creation suite that launched in 2025.\nMy Role\nI defined the creative enablement vision and success metrics. Led the end-to-end UX exploration and prototyping. Collaborated across ML, engineering, content, and product. Designed reusable components that scaled across Ads Studio. And maybe most importantly—I crafted the internal narrative that earned executive buy-in.\nReflection\nThis project taught me that design leadership is about creating belief through clarity. You don’t need a mandate. You need small wins, measurable progress, and a clear story about why it matters.\n\nTransition: “Ad Assistant was about giving small advertisers creative confidence. This next project was about giving Spotify the operational confidence to safely monetize at scale.”\n\nCase Study 2 — Podcast Monetization Review Tool\nOverview\nAs Spotify expanded podcast monetization, we needed a way to review thousands of shows for brand and network safety. At the time, that process was entirely manual—a handful of ops associates doing everything by hand. It didn’t scale.\nI came in as the sole designer to transform a bare-bones MVP into a scalable, AI-assisted review platform. One that balanced three things: creator opportunity, advertiser safety, and operational efficiency.\nThe Problem\nThe manual process was creating bottlenecks everywhere. Ops associates were spending hours listening, tagging, and making decisions with limited support. Those decisions were subjective and hard to audit. Creators were waiting weeks just to get approved for monetization. And advertisers didn’t have enough safe inventory to buy against.\nEveryone was constrained by the same broken workflow.\nThe Opportunity\nWe set out to design a system that could cut review time by 50%, improve decision accuracy and reviewer confidence, increase safe ad supply for the Spotify Audience Network, and meet emerging transparency requirements—including the EU’s Digital Services Act.\nThis was 2021–2022, so we were integrating early AI capabilities into a human-centered workflow. It required a lot of care.\nStarting Point\nEngineering had already digitized the manual process into a basic workflow. Functional, but not usable at scale. As the sole designer, I owned the full stack—service design for the end-to-end workflow, UX and UI for the daily tools ops associates lived in, and systems design for reusable components that could extend to future internal tooling.\nSpotify’s consumer design system wasn’t built for B2B workflows, so I extended it to support these internal use cases.\nResearch\nBecause our users were internal, I could embed deeply. I shadowed ops associates during actual reviews. Mapped out their pain points and decision breakdowns. Got specific about what speed, confidence, and clarity actually meant in their day-to-day.\nThree themes kept coming up: decisioning, data visibility, and auditability. Those became my guide rails for everything that followed.\nThe Level of Zoom Framework\nThis is probably the piece I’m most proud of. To mirror how reviewers actually think, I created what I called the Level of Zoom model.\nThink of it as four layers. At the top, the dashboard—where should I focus my attention? Then show level—what is this podcast broadly about? Then episode level—where might issues exist within a specific show? And finally, snippet level—what exactly needs attention, and why?\nThis structure became the backbone of the entire experience. It matched the reviewer’s mental model, so the tool felt intuitive from day one.\nIntegrating AI\nWe brought in a third-party AI system to flag sensitive topics, assign severity levels, and surface transcript snippets tied to potential violations. But the key was the division of labor. AI handled scale and pattern detection. Humans retained judgment and accountability. That’s how you build trust in a system like this—especially when the stakes involve creator livelihoods and brand safety.\nImpact\nThe platform delivered. 50% reduction in review time. 93% broadcast approval rate—meaning human effort was focused where it actually mattered. Over 20,000 ad impressions unlocked. Manual workflows eliminated. Reviewer burnout reduced. Full compliance with EU transparency and audit requirements.\nAnd it became the foundation for Spotify’s Network Integrity strategy, informing sibling tools across Ads Studio and Brand Safety.\nMy Role\nSole product designer owning UX, research, information architecture, UI, and systems. Daily partner to ops, brand safety, ML, and engineering. I created the scalable frameworks and mental models that the team still uses. Contributed to an internal design system branch for B2B tooling. And served as a strategic partner shaping the long-term network integrity vision.\nReflection\nThis work taught me how to design clarity into complex, high-stakes workflows. When you’re balancing safety, monetization, and speed—you need systems thinking, empathy, and tight cross-functional collaboration. You can’t fake any of those.\n\nKey changes I made:\nThe content and structure are identical to your slides. What I changed is the voice—it reads the way you’d actually talk through it. I removed the bullet-point cadence, added natural transitions, and made sure your signature moments land harder: the personal “I couldn’t make an ad” moment, the sizzle reel story, and the Level of Zoom framework. The transition between case studies bridges the two narratives cleanly.\nPractice hitting those beats tonight and you’ll crush it tomorrow. Want me to help with anything else—your intro section, potential Q&A prep, or Reddit-specific angles you might get asked about?​​​​​​​​​​​​​​​​",
   },
   {
     id: "2026-02-11-basement-whispers",
@@ -2862,7 +2862,7 @@ export const entries: Entry[] = [
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "When did that adventure and innocence die? Look at it now and it won’t look me in the eye. #lyric",
+    body: "When did that adventure and innocence die? Look at it now and it won’t look me in the eye. lyric",
   },
   {
     id: "2026-02-10-aglb",
@@ -2883,7 +2883,7 @@ export const entries: Entry[] = [
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "It seems so antiquated already. Thinking about how we had to say “continue” when #AI would hit the word limit on a coding exercise or a writing assignment",
+    body: "It seems so antiquated already. Thinking about how we had to say “continue” when AI would hit the word limit on a coding exercise or a writing assignment",
   },
   {
     id: "2026-02-10-ai-everywhere",
@@ -2904,14 +2904,14 @@ export const entries: Entry[] = [
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "I feel like our jobs are a joke and we are just running the car til it loses gas. Then we’ll be discarded. Ai will come in and take all work away. And leave us in the dust. That’s my fear. Not to losing work. But more to losing work which provides money for me to live my life, support my family. #AI by day is fascinating and fun. By night, it keeps me up, because I feel like I can see the end of the story. And it’s scary.",
+    body: "I feel like our jobs are a joke and we are just running the car til it loses gas. Then we’ll be discarded. Ai will come in and take all work away. And leave us in the dust. That’s my fear. Not to losing work. But more to losing work which provides money for me to live my life, support my family. AI by day is fascinating and fun. By night, it keeps me up, because I feel like I can see the end of the story. And it’s scary.",
   },
   {
     id: "2026-02-10-ai-magic-wand-non",
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "In many ways, #AI is a magic wand for non-technical entrepreneurs. I’m a designer who has always admired code and dabbled myself but always been scared. Now it’s a new frontier for me",
+    body: "In many ways, AI is a magic wand for non-technical entrepreneurs. I’m a designer who has always admired code and dabbled myself but always been scared. Now it’s a new frontier for me",
   },
   {
     id: "2026-02-10-ai-poc-planning",
@@ -2925,7 +2925,7 @@ export const entries: Entry[] = [
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "AI test for the day: give AI some sample screens, a design brief, a PRD and have it build the proof of concept.\n\nI don’t want to spend my time on edge cases or states, unhappy paths out of the gate. I want to validate the idea. And AI can do the busy work of getting every scenario designed and mapped out.\n\nMost signs right now point to cursor and Claude—but how do I vibe code in a complex, dense dev environment?\n\nWhat is the best workflow to be efficient and embracing #AI but grounded in the reality of antiquated systems, codebase, etc.\n\nLike I need to convert vibe code to figma. It feels backward (it is) but right now it’s the way we work.\n\nI am working to build a white labeled/skinned MUI but themed to have the look and feel of our product, Quantum Metric.\n\nSuggest a workflow for me, a staff designer moving fast at a startup. Striving to ship but also pick the team to design excellence (doesn’t exist today)\n\nself serving but honest: trying to make a long term case and play for a job when others will get lost to AI.",
+    body: "AI test for the day: give AI some sample screens, a design brief, a PRD and have it build the proof of concept.\n\nI don’t want to spend my time on edge cases or states, unhappy paths out of the gate. I want to validate the idea. And AI can do the busy work of getting every scenario designed and mapped out.\n\nMost signs right now point to cursor and Claude—but how do I vibe code in a complex, dense dev environment?\n\nWhat is the best workflow to be efficient and embracing AI but grounded in the reality of antiquated systems, codebase, etc.\n\nLike I need to convert vibe code to figma. It feels backward (it is) but right now it’s the way we work.\n\nI am working to build a white labeled/skinned MUI but themed to have the look and feel of our product, Quantum Metric.\n\nSuggest a workflow for me, a staff designer moving fast at a startup. Striving to ship but also pick the team to design excellence (doesn’t exist today)\n\nself serving but honest: trying to make a long term case and play for a job when others will get lost to AI.",
   },
   {
     id: "2026-02-10-ai-rabbit-hole",
@@ -2939,14 +2939,14 @@ export const entries: Entry[] = [
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "#ai Subscriptions are going to be the new cable bundling. Ugh.",
+    body: "ai Subscriptions are going to be the new cable bundling. Ugh.",
   },
   {
     id: "2026-02-10-ai-tools-as-apprentices",
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "I need to look at all of my #AI tools like a team of apprentices. I respect what they can do, I don’t treat them like interns. But they answer to me. My vision. My tasks. My directions. I lie this term better than agents.",
+    body: "I need to look at all of my AI tools like a team of apprentices. I respect what they can do, I don’t treat them like interns. But they answer to me. My vision. My tasks. My directions. I lie this term better than agents.",
   },
   {
     id: "2026-02-10-album-art-aesthetic",
@@ -2995,7 +2995,7 @@ export const entries: Entry[] = [
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "With economic uncertainty and a general shift in consumer capitalistic behavior, I anticipate in predict that there will be a huge emphasis on bartering and borrowing/renting to me a great proving ground for this hypothesis is building a proof of concept for Von and launching it and seeing if people will adopt and use it. #levon is a #sideproject I want to bring back. Not that I have a lot of time, though.",
+    body: "With economic uncertainty and a general shift in consumer capitalistic behavior, I anticipate in predict that there will be a huge emphasis on bartering and borrowing/renting to me a great proving ground for this hypothesis is building a proof of concept for Von and launching it and seeing if people will adopt and use it. levon is a sideproject I want to bring back. Not that I have a lot of time, though.",
   },
   {
     id: "2026-02-10-bass-through-wall",
@@ -3044,7 +3044,7 @@ export const entries: Entry[] = [
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "Posty posty\nHoney bunches of oats\nWe are eating good today\n\n(A #poem or #lyric of new ideation)",
+    body: "Posty posty\nHoney bunches of oats\nWe are eating good today\n\n(A poem or lyric of new ideation)",
   },
   {
     id: "2026-02-10-bw",
@@ -3107,7 +3107,7 @@ export const entries: Entry[] = [
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "Changing clothes is like changing skin. Take it off then start new again. #lyric",
+    body: "Changing clothes is like changing skin. Take it off then start new again. lyric",
   },
   {
     id: "2026-02-10-changing-identity",
@@ -3177,7 +3177,7 @@ export const entries: Entry[] = [
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "Driving home\nFrom the hospital\nIt’s cold as hell\n\nCar is quiet\nJust like you\nTrying to get well\n\n#lyric I thought of tonight after visiting paisley at the animal hospital",
+    body: "Driving home\nFrom the hospital\nIt’s cold as hell\n\nCar is quiet\nJust like you\nTrying to get well\n\nlyric I thought of tonight after visiting paisley at the animal hospital",
   },
   {
     id: "2026-02-10-collective-test-pads",
@@ -3268,7 +3268,7 @@ export const entries: Entry[] = [
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "I think the role of a design technologist is very much needed on our team at #quantummetric. Design systems, proofs of concept, etc.",
+    body: "I think the role of a design technologist is very much needed on our team at quantummetric. Design systems, proofs of concept, etc.",
   },
   {
     id: "2026-02-10-design-treatises",
@@ -3317,7 +3317,7 @@ export const entries: Entry[] = [
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "When things ain’t going great? Disassociate. #lyric\n\nDisassociate,\nto mutate especially reversibly\n\nThat’s what Mr Webster says.\n\nAnd I'm bound to believe him.",
+    body: "When things ain’t going great? Disassociate. lyric\n\nDisassociate,\nto mutate especially reversibly\n\nThat’s what Mr Webster says.\n\nAnd I'm bound to believe him.",
   },
   {
     id: "2026-02-10-dislike-of-black",
@@ -3422,7 +3422,7 @@ export const entries: Entry[] = [
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "There’s a chance we all blossom into flowers. There’s a chance we don’t. #lyric",
+    body: "There’s a chance we all blossom into flowers. There’s a chance we don’t. lyric",
   },
   {
     id: "2026-02-10-front-door",
@@ -3569,7 +3569,7 @@ export const entries: Entry[] = [
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "It comes and goes in waves. And all at once it hits me like a hurricane #lyric",
+    body: "It comes and goes in waves. And all at once it hits me like a hurricane lyric",
   },
   {
     id: "2026-02-10-hydrangeas",
@@ -3751,7 +3751,7 @@ export const entries: Entry[] = [
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "Good morning\nI see you\nA rainbow\nThreading the clouds\nA tapestry of colors\n\n(#poem maybe)",
+    body: "Good morning\nI see you\nA rainbow\nThreading the clouds\nA tapestry of colors\n\n(poem maybe)",
   },
   {
     id: "2026-02-10-mundane-sensory-nostalgia",
@@ -3898,7 +3898,7 @@ export const entries: Entry[] = [
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "Today’s audit is going to focus on four product areas. Funnels/opportunities, dashboards, reports, and sandbox.\n\nThere are a few identifiers I want to classify each audit item by: point of polish, level of customer impediment, level of customer impact.\n\nThe focus of today is not new features. It is polish simplification and rebuilding in an effort to create a strong foundation for us to build the future of dashboards the way that we see it coming together and taking shape in the next year or two.  This will be big for #quantummetric",
+    body: "Today’s audit is going to focus on four product areas. Funnels/opportunities, dashboards, reports, and sandbox.\n\nThere are a few identifiers I want to classify each audit item by: point of polish, level of customer impediment, level of customer impact.\n\nThe focus of today is not new features. It is polish simplification and rebuilding in an effort to create a strong foundation for us to build the future of dashboards the way that we see it coming together and taking shape in the next year or two.  This will be big for quantummetric",
   },
   {
     id: "2026-02-10-prototype-bbq-menu",
@@ -3996,7 +3996,7 @@ export const entries: Entry[] = [
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "There’s a sea change. I’m a sea change. It’s swelling up in me #lyric",
+    body: "There’s a sea change. I’m a sea change. It’s swelling up in me lyric",
   },
   {
     id: "2026-02-10-season-collage",
@@ -4045,7 +4045,7 @@ export const entries: Entry[] = [
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "It’s kind of crazy how we naturally just slow down.\n\nStopped partying as much\nThen started working on the present\nOnly to realize, we were plowing for the future.\n\n#lyric i was stumbling through",
+    body: "It’s kind of crazy how we naturally just slow down.\n\nStopped partying as much\nThen started working on the present\nOnly to realize, we were plowing for the future.\n\nlyric i was stumbling through",
   },
   {
     id: "2026-02-10-snack-prep-for-focus",
@@ -4066,7 +4066,7 @@ export const entries: Entry[] = [
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "Yes ma’am. Hot damn. I’m your man. #lyric",
+    body: "Yes ma’am. Hot damn. I’m your man. lyric",
   },
   {
     id: "2026-02-10-sonic-journaling",
@@ -4094,7 +4094,7 @@ export const entries: Entry[] = [
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "You're higher than a summer rain hiding on the fire escape\nIt’s a melancholy Saturday\nI walk away\n(#lyric idea?)",
+    body: "You're higher than a summer rain hiding on the fire escape\nIt’s a melancholy Saturday\nI walk away\n(lyric idea?)",
   },
   {
     id: "2026-02-10-summoned-stimulation",
@@ -4157,14 +4157,14 @@ export const entries: Entry[] = [
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "When trees move, I swear I hear them ache. Or maybe it’s a projection. Of me and the own way that I feel as I move.\n\n(Maybe a #poem)",
+    body: "When trees move, I swear I hear them ache. Or maybe it’s a projection. Of me and the own way that I feel as I move.\n\n(Maybe a poem)",
   },
   {
     id: "2026-02-10-trees-intertwined",
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "I like it when the trees criss-cross. Like they are holding hands in this dance of nature.\n\n#poem",
+    body: "I like it when the trees criss-cross. Like they are holding hands in this dance of nature.\n\npoem",
   },
   {
     id: "2026-02-10-tumentos",
@@ -4227,7 +4227,7 @@ export const entries: Entry[] = [
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "I sometimes feel like using #AI in design is cheating.",
+    body: "I sometimes feel like using AI in design is cheating.",
   },
   {
     id: "2026-02-10-verbose-ahas",
@@ -4276,7 +4276,7 @@ export const entries: Entry[] = [
     date: "2026-02-10",
     time: "1:37pm",
     kind: "text",
-    body: "I think this concept of #workjournal is overlooked and undervalued in the workplace. There is too much emphasis on structure and context when you bring it into a google doc or other project file. Giving way to a stream of conscious, journal approach makes it 10x easier to let ideas come, go, flow as it happens—in real time.",
+    body: "I think this concept of workjournal is overlooked and undervalued in the workplace. There is too much emphasis on structure and context when you bring it into a google doc or other project file. Giving way to a stream of conscious, journal approach makes it 10x easier to let ideas come, go, flow as it happens—in real time.",
   },
   {
     id: "2026-02-10-writing-exercise",

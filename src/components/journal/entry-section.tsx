@@ -5,6 +5,7 @@ import { PhotoFrame } from "@/components/journal/photo-frame";
 import { SongSketch } from "@/components/journal/song-sketch";
 import { MicroSketch } from "@/components/journal/micro-sketch";
 import { DateStamp } from "@/components/journal/date-stamp";
+import { linkify } from "@/components/journal/linkify";
 
 export function EntrySection({ entry, index }: { entry: Entry; index: number }) {
   const duotone = duotoneForIndex(index);
@@ -39,8 +40,8 @@ export function EntrySection({ entry, index }: { entry: Entry; index: number }) 
             </span>
           )}
         </div>
-        <p className="mt-3 text-2xl leading-snug font-normal whitespace-pre-line sm:text-3xl">
-          {entry.kind === "text" ? entry.body : entry.caption}
+        <p className="mt-3 text-2xl leading-relaxed font-normal whitespace-pre-line text-pretty break-words sm:text-3xl">
+          {linkify(entry.kind === "text" ? entry.body : entry.caption)}
         </p>
       </div>
     </section>
