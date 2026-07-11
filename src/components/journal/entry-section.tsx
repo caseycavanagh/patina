@@ -13,7 +13,7 @@ export function EntrySection({ entry, index }: { entry: Entry; index: number }) 
     <section
       id={entry.id}
       data-entry-id={entry.id}
-      className="journal-entry relative flex min-h-dvh w-full snap-start snap-always flex-col items-center justify-center gap-8 pt-24 pb-32"
+      className="journal-entry relative flex h-dvh w-full snap-start snap-always flex-col items-center gap-8 overflow-y-auto pt-24 pb-32 [justify-content:safe_center]"
       style={{ color: duotone.ink }}
     >
       {entry.kind !== "text" && (
@@ -39,7 +39,7 @@ export function EntrySection({ entry, index }: { entry: Entry; index: number }) 
             </span>
           )}
         </div>
-        <p className="mt-3 text-2xl leading-snug font-normal sm:text-3xl">
+        <p className="mt-3 text-2xl leading-snug font-normal whitespace-pre-line sm:text-3xl">
           {entry.kind === "text" ? entry.body : entry.caption}
         </p>
       </div>
