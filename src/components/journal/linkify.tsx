@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { LinkChip } from "@/components/journal/link-chip";
 
 const LINK_PATTERN =
   /!?\[([^\]]*)\]\((https?:\/\/[^\s)]+)\)|(https?:\/\/[^\s<>"')\]]+)/g;
@@ -34,17 +35,7 @@ export function linkify(text: string): ReactNode[] {
       }
     }
 
-    nodes.push(
-      <a
-        key={key++}
-        href={href}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="underline underline-offset-2 decoration-current/40 hover:decoration-current/80"
-      >
-        {mdUrl ? mdLabel || href : href}
-      </a>,
-    );
+    nodes.push(<LinkChip key={key++} href={href} label={mdUrl ? mdLabel : undefined} />);
 
     if (trailing) nodes.push(trailing);
     lastIndex = match.index + full.length;
